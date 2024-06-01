@@ -1,0 +1,184 @@
+\documentclass[a4paper,11pt,twoside]{book}
+
+\usepackage[utf8] { inputenc }
+\usepackage[T1] { fontenc } 
+\usepackage[english]{babel}
+\usepackage{titlesec, blindtext, color}
+\definecolor{gray75}{gray}{0.75}
+\newcommand{\hsp}{\hspace{20pt}}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage[titletoc]{appendix}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{braket}
+\usepackage{caption}
+\usepackage{color}
+\usepackage{enumitem}
+\usepackage{etoolbox}
+%\usepackage{fancyhdr}
+\usepackage{float}
+\usepackage{fullpage}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{lipsum}
+\usepackage{listings}
+\usepackage{rotating}
+\usepackage{sectsty}
+\usepackage{slashed}
+\usepackage{subfig}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage[nottoc]{tocbibind}
+\usepackage{wasysym}
+\usepackage{wrapfig}
+\usepackage{makeidx}
+\makeindex
+
+
+\usepackage[table]{xcolor}
+
+
+\usepackage{tikz-feynman}
+
+\usepackage{simplewick}
+
+\usepackage{media9}
+\addmediapath{./Movies/}
+
+\usepackage{blindtext}
+\usepackage{scrextend}
+\addtokomafont{labelinglabel}{\sffamily}
+
+\usepackage{pdfpages}
+\usepackage[]{algorithm2e}
+
+\usepackage [round,authoryear] {natbib}
+
+\DeclareMathOperator*{\argmax}{argmax}
+\DeclareMathOperator*{\argmin}{argmin}
+
+\def\dbar{{\mathchar'26\mkern-12mu d}}
+
+\makeatletter
+\def\BState{\State\hskip-\ALG@thistlm}
+\makeatother
+
+\usepackage{geometry}
+\geometry{
+	a4paper,
+	total={180mm,250mm},
+	left=15mm,
+	top=10mm,
+}
+
+
+%Feynmann diagrams
+\usepackage{tikz} 
+\usetikzlibrary{shapes,arrows,positioning,automata,backgrounds,calc,er,patterns}
+\usepackage{tikz-feynman}
+\tikzfeynmanset{compat=1.0.0}
+\usepackage{amsthm,color}
+\theoremstyle{definition}
+\newtheorem{exinn}{Example}[chapter]
+\newenvironment{example}
+{\clubpenalty=10000
+	\begin{exinn}%
+		\mbox{}%
+		{\color{black}\leaders\hrule height .8ex depth \dimexpr-.8ex+0.8pt\relax\hfill}%
+		\mbox{}\linebreak\ignorespaces}
+	{\par\kern2ex\hrule\end{exinn}}
+
+
+
+% tekst over lighedstegn
+\newcommand{\approxtext}[1]{\ensuremath{\stackrel{\text{#1}}{\approx}}}
+\newcommand\myeq{\mathrel{\overset{\makebox[0pt]{\mbox{\normalfont\tiny\sffamily def}}}{=}}}
+
+\setlength{\headsep}{10pt}
+\setlength{\headheight}{14pt}
+\sectionfont{ \sectionrule{0pt}{0pt}{-5pt}{0.8pt} }
+% PW
+\makeatletter
+\def\brule{\rule[1.5em]{\textwidth}{0.4pt}}
+% LG
+\def\abookheadrule{\ifodd\c@page\brule\else\hspace*{0.2\textwidth}\brule\fi}
+\renewcommand\Im{\operatorname{Im}}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+
+\titleformat{\chapter}[display]
+{\bfseries\Large}
+{\filright\MakeUppercase{\chaptertitlename} \Huge\thechapter}
+{1ex}
+{\titlerule\vspace{1ex}\filleft}
+[\vspace{1ex}\titlerule]
+
+% Til chapters
+\titleformat{\chapter}[hang]{\Huge\bfseries}{\thechapter\hsp\textcolor{gray75}{|}\hsp}{0pt}{\Huge\bfseries}
+
+\begin{document}
+	\frontmatter
+	\newpage
+	\hypersetup{pageanchor=false}
+	\input{./frontpage.tex}
+	\hypersetup{pageanchor=true}
+	%\pagestyle{fancy}
+	%\fancyhead[LE,RO]{\slshape \rightmark}
+	
+	\renewcommand{\sectionmark}[1]{\markboth{}{\emph{\thesection~#1}}}
+	\renewcommand{\subsectionmark}[1]{}% Remove \subsection from header
+	
+	\newpage
+	\thispagestyle{plain}
+	~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\	
+	\begin{center}
+		\emph{Til min søn. Denne bog indeholder dybdegående svar til mange af de spørgsmål du stillede som barn. Jeg har skrevet bogen over mange år og gemt i teksten indeholder den meget af din fars sjæl. Med bogen har du muligheden for altid at have en del af din far med hvorend du bevæger dig hen i livet. Far elsker dig -- Altid og uanset hvad.}
+	\end{center}
+
+	\let\cleardoublepage\clearpage % removes the blank page
+	\newpage
+	\tableofcontents
+	\addtocontents{toc}{\protect\thispagestyle{plain}}
+
+	\mainmatter
+	\thispagestyle{plain}
+	
+	\include{overture}
+
+	\part{Classical Mechanics}
+		\include{classical_mechanics}
+	
+	\part{Quantum Mechanics}
+		\include{quantum_mechanics}
+	
+	\part{Relativistic Mechanics}
+	\chapter*{Introduction}
+		The subject of relativistic mechanics is the realm of classical fields in the relativistic limit. Classical because the theory describes macroscopic objects and fields because the laws of nature must be \emph{local}. The non-relativistic physical laws, of eg. Newton and Coulomb, employ "action at a distance". The principle of action at a distance approximates the speed of light to be infinite, and so information is mediated instantaneously between objects. This approximation is good when considering systems in the non-relativistic limit, but not in the relativistic limit. In the relativistic limit fields are needed to mediate the interactions, and besides that special relativity, or general relativity, is needed to describe the physics in a Lorentz covariant way. SR is closely related to group theory, and so the place to begin is really with an introduction to group theory ending with an introduction of the group used in special relativity; the Lorentz group. 
+	
+	\include{relativistic_mechanics}
+	
+	\part{Quantum Field Theory applied to particle physics}
+	\include{QFT}
+
+	
+	\begin{appendices}
+		\appendixpage
+		\noappendicestocpagenum
+		\addappheadtotoc
+	
+		\include{app_code_CDF}
+		\include{app_HMC_algorithm}
+		\include{app_nested_sampling}
+	
+	\end{appendices}
+	
+	
+	\bibliographystyle{plainnat}
+	\bibliography{refs}
+	
+	\clearpage
+	\printindex{}
+
+\end{document}

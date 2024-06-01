@@ -1,0 +1,152 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+A level-1 auxiliary file: overture.aux
+Reallocating 'name_of_file' (item size: 1) to 24 items.
+A level-1 auxiliary file: classical_mechanics.aux
+Reallocating 'name_of_file' (item size: 1) to 22 items.
+A level-1 auxiliary file: quantum_mechanics.aux
+Reallocating 'name_of_file' (item size: 1) to 27 items.
+A level-1 auxiliary file: relativistic_mechanics.aux
+Reallocating 'name_of_file' (item size: 1) to 8 items.
+A level-1 auxiliary file: QFT.aux
+Reallocating 'name_of_file' (item size: 1) to 17 items.
+A level-1 auxiliary file: app_code_CDF.aux
+Reallocating 'name_of_file' (item size: 1) to 22 items.
+A level-1 auxiliary file: app_HMC_algorithm.aux
+Reallocating 'name_of_file' (item size: 1) to 24 items.
+A level-1 auxiliary file: app_nested_sampling.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: plainnat.bst
+Reallocating 'name_of_file' (item size: 1) to 5 items.
+Database file #1: refs.bib
+I was expecting a `,' or a `}'---line 67 of file refs.bib
+ :  
+ :  school = PhD Thesis, University of Southern Denmark,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 1175 of file refs.bib
+ : @article{hastings70
+ :                    ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1245 of file refs.bib
+ :  
+ :  pages = {318-362},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 1707 of file refs.bib
+ : @book{MacKay2002
+ :                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1733 of file refs.bib
+ : @article{Metropolis1953
+ :                        ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2171 of file refs.bib
+ :  journal = The 
+ :                Astronomical Journal,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2215 of file refs.bib
+ :  journal = Monthly 
+ :                    Notices of the Royal Astronomical Society: Letters,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2297 of file refs.bib
+ :  eprint = 1103
+ :               .3944,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2329 of file refs.bib
+ :  journal = Nature 
+ :                   Astronomy,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2587 of file refs.bib
+ :  DOI     = 10
+ :              .4249/scholarpedia.31410,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2609 of file refs.bib
+ :  doi = 10
+ :          .1086/182804,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2747 of file refs.bib
+ :  journal = The 
+ :                Astronomical Journal,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2789 of file refs.bib
+ :  pages = 668
+ :             -683,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2829 of file refs.bib
+ :  pages = 1
+ :           -28,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2863 of file refs.bib
+ :  keywords = NEUTRAL 
+ :                     HYDROGEN, GAS DISTRIBUTION, SPIRAL GALAXIES,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2883 of file refs.bib
+ :  pages = 305
+ :             -313,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3385 of file refs.bib
+ :  pages = 325
+ :             -331,
+I'm skipping whatever remains of this entry
+You're missing a field name---line 3979 of file refs.bib
+ :  author         = "Dai, De-Chang and Lu, Chunyu",
+ :                                                  ,
+I'm skipping whatever remains of this entry
+I was expecting an "="---line 4693 of file refs.bib
+ : author = Madau, Piero 
+ :                       and Shen, Sijing and Governato, F,
+I'm skipping whatever remains of this entry
+Warning--empty journal in Betancourt2013
+Warning--empty title in Neal:1996
+Warning--empty journal in Neal2012
+Warning--empty school in petersen2020
+Warning--empty year in petersen2020
+Warning--empty year in petersen2020
+Warning--empty journal in Sannino
+Warning--empty year in Sannino
+Warning--empty year in Sannino
+You've used 26 entries,
+            2773 wiz_defined-function locations,
+            787 strings with 8904 characters,
+and the built_in function-call counts, 9651 in all, are:
+= -- 833
+> -- 433
+< -- 24
++ -- 155
+- -- 129
+* -- 678
+:= -- 1566
+add.period$ -- 106
+call.type$ -- 26
+change.case$ -- 104
+chr.to.int$ -- 26
+cite$ -- 61
+duplicate$ -- 530
+empty$ -- 875
+format.name$ -- 165
+if$ -- 2012
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 42
+newline$ -- 165
+num.names$ -- 106
+pop$ -- 276
+preamble$ -- 1
+purify$ -- 94
+quote$ -- 0
+skip$ -- 349
+stack$ -- 0
+substring$ -- 171
+swap$ -- 39
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 201
+warning$ -- 9
+while$ -- 86
+width$ -- 0
+write$ -- 385
+(There were 19 error messages)

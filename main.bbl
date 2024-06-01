@@ -1,0 +1,178 @@
+\begin{thebibliography}{26}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Adams and Essex(2009)]{calculus}
+R.A. Adams and C.~Essex.
+\newblock \emph{Calculus: A Complete Course}.
+\newblock Pearson Canada, 2009.
+\newblock ISBN 9780321549280.
+\newblock URL \url{https://books.google.dk/books?id=vFdKPgAACAAJ}.
+
+\bibitem[Betancourt and Girolami(2013)]{Betancourt2013}
+M.~Betancourt and Mark Girolami.
+\newblock Hamiltonian monte carlo for hierarchical models.
+\newblock 12 2013.
+\newblock \doi{10.1201/b18502-5}.
+
+\bibitem[Blundell et~al.(2006)Blundell, Blundell, and Blundell]{blundell}
+S.~Blundell, S.J. Blundell, and K.M. Blundell.
+\newblock \emph{Concepts in Thermal Physics}.
+\newblock Comprehensive Assessment of Water Management in Agriculture. Oxford
+  University Press, 2006.
+\newblock ISBN 9780198567691.
+\newblock URL \url{https://books.google.dk/books?id=oaDdswEACAAJ}.
+
+\bibitem[Cheng(2010)]{Cheng}
+Ta-Pei Cheng.
+\newblock \emph{{Relativity, Gravitation and Cosmology: A Basic Introduction}}.
+\newblock Oxford University Press, 2010.
+
+\bibitem[Dirac(1930)]{dirac}
+P.~A.~M. Dirac.
+\newblock \emph{{Die Prinzipien der Quantenmechanik}. ({German}) [{The}
+  Principles of Quantum Mechanics]}.
+\newblock Verlag von S. Hirzel, Leipzig, Germany, 1930.
+\newblock Translated by Werner Bloch from the English original.
+
+\bibitem[Duane et~al.(1987)Duane, Kennedy, Pendleton, and Roweth]{Duane:1987de}
+S.~Duane, A.D. Kennedy, B.J. Pendleton, and D.~Roweth.
+\newblock {Hybrid Monte Carlo}.
+\newblock \emph{Phys. Lett. B}, 195:\penalty0 216--222, 1987.
+\newblock \doi{10.1016/0370-2693(87)91197-X}.
+
+\bibitem[Goldstein et~al.(2002)Goldstein, Poole, and Safko]{Goldstein}
+H.~Goldstein, C.P. Poole, and J.L. Safko.
+\newblock \emph{Classical Mechanics}.
+\newblock Addison Wesley, 2002.
+\newblock ISBN 9780201657029.
+\newblock URL \url{https://books.google.dk/books?id=tJCuQgAACAAJ}.
+
+\bibitem[Griffiths(2004)]{Griffiths}
+David~J. Griffiths.
+\newblock \emph{{Introduction to Quantum Mechanics (2nd Edition)}}.
+\newblock Pearson Prentice Hall, 2nd edition, April 2004.
+\newblock ISBN 0131118927.
+
+\bibitem[Hastings(1970)]{hastings70}
+W.~K. Hastings.
+\newblock Monte carlo sampling methods using markov chains and their
+  applications.
+\newblock \emph{Biometrika}, 57\penalty0 (1):\penalty0 97--109, 1970.
+\newblock \doi{10.1093/biomet/57.1.97}.
+
+\bibitem[Knudsen and Hjorth(2000)]{hjort}
+{J. M.} Knudsen and {Poul G.} Hjorth.
+\newblock \emph{Elements of Newtonian Mechanics, 3rd edition}.
+\newblock Springer, 2000.
+
+\bibitem[Lancaster and Blundell(2014)]{Lancaster2014}
+Tom Lancaster and Stephen~J Blundell.
+\newblock \emph{{Quantum field theory for the gifted amateur}}.
+\newblock Oxford University Press, Oxford, Apr 2014.
+\newblock \doi{0199699321}.
+\newblock URL \url{https://cds.cern.ch/record/1629337}.
+
+\bibitem[Lautrup(2011)]{Lautrup}
+B.~Lautrup.
+\newblock \emph{Physics of Continuous Matter: Exotic and Everyday Phenomena in
+  the Macroscopic World}.
+\newblock CRC Press, 2011.
+\newblock ISBN 9781439894200.
+\newblock URL \url{https://books.google.dk/books?id=ohbSBQAAQBAJ}.
+
+\bibitem[MacKay(2002)]{MacKay2002}
+David J.~C. MacKay.
+\newblock \emph{Information Theory, Inference and Learning Algorithms}.
+\newblock Cambridge University Press, 2002.
+
+\bibitem[Martin(2006)]{BR}
+B.R. Martin.
+\newblock \emph{Nuclear and Particle Physics: An Introduction}.
+\newblock Wiley, 2006.
+\newblock ISBN 9780470025321.
+\newblock URL \url{https://books.google.it/books?id=WXHG1wSgQDMC}.
+
+\bibitem[Metropolis et~al.(1953)Metropolis, Rosenbluth, Rosenbluth, Teller, and
+  Teller]{Metropolis1953}
+Nicholas Metropolis, Arianna~W. Rosenbluth, Marshall~N. Rosenbluth, Augusta~H.
+  Teller, and Edward Teller.
+\newblock Equation of state calculations by fast computing machines.
+\newblock \emph{The Journal of Chemical Physics}, 21\penalty0 (6):\penalty0
+  1087--1092, 1953.
+\newblock \doi{10.1063/1.1699114}.
+\newblock URL \url{http://link.aip.org/link/?JCP/21/1087/1}.
+
+\bibitem[Neal(1996)]{Neal:1996}
+Radford~M. Neal.
+\newblock Springer-Verlag, Berlin, Heidelberg, 1996.
+\newblock ISBN 0387947248.
+
+\bibitem[Neal(2012)]{Neal2012}
+Radford~M. Neal.
+\newblock Mcmc using hamiltonian dynamics.
+\newblock 2012.
+\newblock URL \url{http://arxiv.org/abs/1206.1901}.
+\newblock cite arxiv:1206.1901.
+
+\bibitem[Peskin and Schroeder(1995)]{Peskin1995}
+Michael~E Peskin and Daniel~V Schroeder.
+\newblock \emph{{An introduction to quantum field theory}}.
+\newblock Westview, Boulder, CO, 1995.
+\newblock URL \url{https://cds.cern.ch/record/257493}.
+\newblock Includes exercises.
+
+\bibitem[Petersen()]{petersen2020}
+J.~Petersen.
+\newblock \emph{The Missing MAss Problem on Galactic Scales}.
+\newblock PhD thesis.
+
+\bibitem[Sakurai(1994)]{Sakurai}
+Jun~John Sakurai.
+\newblock \emph{{Modern quantum mechanics; rev. ed.}}
+\newblock Addison-Wesley, Reading, MA, 1994.
+\newblock URL \url{https://cds.cern.ch/record/1167961}.
+
+\bibitem[Sannino()]{Sannino}
+F.~Sannino.
+\newblock Lagrangian and hamiltonian mechanics.
+
+\bibitem[Schwichtenberg(2015)]{Schwichtenberg2015}
+J.~Schwichtenberg.
+\newblock \emph{{Physics from Symmetry}}.
+\newblock Springer International Publishing, 1 edition, 2015.
+
+\bibitem[{Skilling}(2004)]{skilling2004}
+John {Skilling}.
+\newblock {Nested Sampling}.
+\newblock In Rainer {Fischer}, Roland {Preuss}, and Udo~Von {Toussaint},
+  editors, \emph{Bayesian Inference and Maximum Entropy Methods in Science and
+  Engineering: 24th International Workshop on Bayesian Inference and Maximum
+  Entropy Methods in Science and Engineering}, volume 735 of \emph{American
+  Institute of Physics Conference Series}, pages 395--405, November 2004.
+\newblock \doi{10.1063/1.1835238}.
+
+\bibitem[Skilling(2006)]{skilling2006}
+John Skilling.
+\newblock Skilling, j.: Nested sampling for general bayesian computation.
+  bayesian anal. 1(4), 833-860.
+\newblock \emph{Bayesian Analysis}, 1:\penalty0 833--860, 12 2006.
+\newblock \doi{10.1214/06-BA127}.
+
+\bibitem[Srednicki(2007)]{Srednicki2027}
+Mark Srednicki.
+\newblock \emph{{Quantum Field Theory}}.
+\newblock Cambridge Univ. Press, Cambridge, 2007.
+\newblock URL \url{https://cds.cern.ch/record/1019751}.
+
+\bibitem[Weinberg(1972)]{Weinberg1972}
+Steven Weinberg.
+\newblock \emph{{Gravitation and Cosmology: Principles and Applications of the
+  General Theory of Relativity}}.
+\newblock Wiley, New York, NY, 1972.
+\newblock URL \url{https://cds.cern.ch/record/100595}.
+
+\end{thebibliography}
