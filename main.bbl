@@ -1,178 +1,460 @@
-\begin{thebibliography}{26}
-\providecommand{\natexlab}[1]{#1}
-\providecommand{\url}[1]{\texttt{#1}}
-\expandafter\ifx\csname urlstyle\endcsname\relax
-  \providecommand{\doi}[1]{doi: #1}\else
-  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
 
-\bibitem[Adams and Essex(2009)]{calculus}
-R.A. Adams and C.~Essex.
-\newblock \emph{Calculus: A Complete Course}.
-\newblock Pearson Canada, 2009.
-\newblock ISBN 9780321549280.
-\newblock URL \url{https://books.google.dk/books?id=vFdKPgAACAAJ}.
+\datalist[entry]{none/global//global/global/global}
+  \entry{Peskin1995}{book}{}{}
+    \name{author}{2}{}{%
+      {{hash=PME}{%
+         family={Peskin},
+         familyi={P\bibinitperiod},
+         given={Michael\bibnamedelima E},
+         giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=SDV}{%
+         family={Schroeder},
+         familyi={S\bibinitperiod},
+         given={Daniel\bibnamedelima V},
+         giveni={D\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Westview}%
+    }
+    \strng{namehash}{PMESDV1}
+    \strng{fullhash}{PMESDV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{Includes exercises}
+    \field{title}{{An introduction to quantum field theory}}
+    \verb{url}
+    \verb https://cds.cern.ch/record/257493
+    \endverb
+    \list{location}{1}{%
+      {Boulder, CO}%
+    }
+    \field{year}{1995}
+  \endentry
 
-\bibitem[Betancourt and Girolami(2013)]{Betancourt2013}
-M.~Betancourt and Mark Girolami.
-\newblock Hamiltonian monte carlo for hierarchical models.
-\newblock 12 2013.
-\newblock \doi{10.1201/b18502-5}.
+  \entry{Lancaster2014}{book}{}{}
+    \name{author}{2}{}{%
+      {{hash=LT}{%
+         family={Lancaster},
+         familyi={L\bibinitperiod},
+         given={Tom},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=BSJ}{%
+         family={Blundell},
+         familyi={B\bibinitperiod},
+         given={Stephen\bibnamedelima J},
+         giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Oxford University Press}%
+    }
+    \strng{namehash}{LTBSJ1}
+    \strng{fullhash}{LTBSJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 0199699321
+    \endverb
+    \field{title}{{Quantum field theory for the gifted amateur}}
+    \verb{url}
+    \verb https://cds.cern.ch/record/1629337
+    \endverb
+    \list{location}{1}{%
+      {Oxford}%
+    }
+    \field{year}{2014}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
 
-\bibitem[Blundell et~al.(2006)Blundell, Blundell, and Blundell]{blundell}
-S.~Blundell, S.J. Blundell, and K.M. Blundell.
-\newblock \emph{Concepts in Thermal Physics}.
-\newblock Comprehensive Assessment of Water Management in Agriculture. Oxford
-  University Press, 2006.
-\newblock ISBN 9780198567691.
-\newblock URL \url{https://books.google.dk/books?id=oaDdswEACAAJ}.
+  \entry{hjort}{book}{}{}
+    \name{author}{2}{}{%
+      {{hash=KJ}{%
+         family={Knudsen},
+         familyi={K\bibinitperiod},
+         given={{J. M.}},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=HP}{%
+         family={Hjorth},
+         familyi={H\bibinitperiod},
+         given={{Poul G.}},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {English}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{KJHP1}
+    \strng{fullhash}{KJHP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Elements of Newtonian Mechanics, 3rd edition}
+    \field{year}{2000}
+  \endentry
 
-\bibitem[Cheng(2010)]{Cheng}
-Ta-Pei Cheng.
-\newblock \emph{{Relativity, Gravitation and Cosmology: A Basic Introduction}}.
-\newblock Oxford University Press, 2010.
+  \entry{calculus}{book}{}{}
+    \name{author}{2}{}{%
+      {{hash=AR}{%
+         family={Adams},
+         familyi={A\bibinitperiod},
+         given={R.A.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=EC}{%
+         family={Essex},
+         familyi={E\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Pearson Canada}%
+    }
+    \strng{namehash}{AREC1}
+    \strng{fullhash}{AREC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{isbn}{9780321549280}
+    \field{title}{Calculus: A Complete Course}
+    \verb{url}
+    \verb https://books.google.dk/books?id=vFdKPgAACAAJ
+    \endverb
+    \field{year}{2009}
+  \endentry
 
-\bibitem[Dirac(1930)]{dirac}
-P.~A.~M. Dirac.
-\newblock \emph{{Die Prinzipien der Quantenmechanik}. ({German}) [{The}
-  Principles of Quantum Mechanics]}.
-\newblock Verlag von S. Hirzel, Leipzig, Germany, 1930.
-\newblock Translated by Werner Bloch from the English original.
+  \entry{Lautrup}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=LB}{%
+         family={Lautrup},
+         familyi={L\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {CRC Press}%
+    }
+    \strng{namehash}{LB1}
+    \strng{fullhash}{LB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{isbn}{9781439894200}
+    \field{title}{Physics of Continuous Matter: Exotic and Everyday Phenomena
+  in the Macroscopic World}
+    \verb{url}
+    \verb https://books.google.dk/books?id=ohbSBQAAQBAJ
+    \endverb
+    \field{year}{2011}
+  \endentry
 
-\bibitem[Duane et~al.(1987)Duane, Kennedy, Pendleton, and Roweth]{Duane:1987de}
-S.~Duane, A.D. Kennedy, B.J. Pendleton, and D.~Roweth.
-\newblock {Hybrid Monte Carlo}.
-\newblock \emph{Phys. Lett. B}, 195:\penalty0 216--222, 1987.
-\newblock \doi{10.1016/0370-2693(87)91197-X}.
+  \entry{Goldstein}{book}{}{}
+    \name{author}{3}{}{%
+      {{hash=GH}{%
+         family={Goldstein},
+         familyi={G\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=PC}{%
+         family={Poole},
+         familyi={P\bibinitperiod},
+         given={C.P.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Safko},
+         familyi={S\bibinitperiod},
+         given={J.L.},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Addison Wesley}%
+    }
+    \strng{namehash}{GHPCSJ1}
+    \strng{fullhash}{GHPCSJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{isbn}{9780201657029}
+    \field{title}{Classical Mechanics}
+    \verb{url}
+    \verb https://books.google.dk/books?id=tJCuQgAACAAJ
+    \endverb
+    \field{year}{2002}
+  \endentry
 
-\bibitem[Goldstein et~al.(2002)Goldstein, Poole, and Safko]{Goldstein}
-H.~Goldstein, C.P. Poole, and J.L. Safko.
-\newblock \emph{Classical Mechanics}.
-\newblock Addison Wesley, 2002.
-\newblock ISBN 9780201657029.
-\newblock URL \url{https://books.google.dk/books?id=tJCuQgAACAAJ}.
+  \entry{Sannino}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=SF}{%
+         family={Sannino},
+         familyi={S\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SF1}
+    \strng{fullhash}{SF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Lagrangian and Hamiltonian Mechanics}
+  \endentry
 
-\bibitem[Griffiths(2004)]{Griffiths}
-David~J. Griffiths.
-\newblock \emph{{Introduction to Quantum Mechanics (2nd Edition)}}.
-\newblock Pearson Prentice Hall, 2nd edition, April 2004.
-\newblock ISBN 0131118927.
+  \entry{blundell}{book}{}{}
+    \name{author}{3}{}{%
+      {{hash=BS}{%
+         family={Blundell},
+         familyi={B\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BS}{%
+         family={Blundell},
+         familyi={B\bibinitperiod},
+         given={S.J.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BK}{%
+         family={Blundell},
+         familyi={B\bibinitperiod},
+         given={K.M.},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Oxford University Press}%
+    }
+    \strng{namehash}{BSBSBK1}
+    \strng{fullhash}{BSBSBK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{isbn}{9780198567691}
+    \field{series}{Comprehensive Assessment of Water Management in Agriculture}
+    \field{title}{Concepts in Thermal Physics}
+    \verb{url}
+    \verb https://books.google.dk/books?id=oaDdswEACAAJ
+    \endverb
+    \field{year}{2006}
+  \endentry
 
-\bibitem[Hastings(1970)]{hastings70}
-W.~K. Hastings.
-\newblock Monte carlo sampling methods using markov chains and their
-  applications.
-\newblock \emph{Biometrika}, 57\penalty0 (1):\penalty0 97--109, 1970.
-\newblock \doi{10.1093/biomet/57.1.97}.
+  \entry{dirac}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=DPAM}{%
+         family={Dirac},
+         familyi={D\bibinitperiod},
+         given={P.\bibnamedelima A.\bibnamedelima M.},
+         giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
+  M\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {German}%
+    }
+    \list{publisher}{1}{%
+      {Verlag von S. Hirzel}%
+    }
+    \strng{namehash}{DPAM1}
+    \strng{fullhash}{DPAM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{Translated by Werner Bloch from the English original.}
+    \field{pages}{xi + 274}
+    \field{title}{{Die Prinzipien der Quantenmechanik}. ({German}) [{The}
+  Principles of Quantum Mechanics]}
+    \list{location}{1}{%
+      {Leipzig, Germany}%
+    }
+    \field{year}{1930}
+  \endentry
 
-\bibitem[Knudsen and Hjorth(2000)]{hjort}
-{J. M.} Knudsen and {Poul G.} Hjorth.
-\newblock \emph{Elements of Newtonian Mechanics, 3rd edition}.
-\newblock Springer, 2000.
+  \entry{Sakurai}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=SJJ}{%
+         family={Sakurai},
+         familyi={S\bibinitperiod},
+         given={Jun\bibnamedelima John},
+         giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Addison-Wesley}%
+    }
+    \strng{namehash}{SJJ1}
+    \strng{fullhash}{SJJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{Modern quantum mechanics; rev. ed.}}
+    \verb{url}
+    \verb https://cds.cern.ch/record/1167961
+    \endverb
+    \list{location}{1}{%
+      {Reading, MA}%
+    }
+    \field{year}{1994}
+  \endentry
 
-\bibitem[Lancaster and Blundell(2014)]{Lancaster2014}
-Tom Lancaster and Stephen~J Blundell.
-\newblock \emph{{Quantum field theory for the gifted amateur}}.
-\newblock Oxford University Press, Oxford, Apr 2014.
-\newblock \doi{0199699321}.
-\newblock URL \url{https://cds.cern.ch/record/1629337}.
+  \entry{Griffiths}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=GDJ}{%
+         family={Griffiths},
+         familyi={G\bibinitperiod},
+         given={David\bibnamedelima J.},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Pearson Prentice Hall}%
+    }
+    \strng{namehash}{GDJ1}
+    \strng{fullhash}{GDJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{edition}{2nd}
+    \field{isbn}{0131118927}
+    \field{title}{{Introduction to Quantum Mechanics (2nd Edition)}}
+    \field{month}{04}
+    \field{year}{2004}
+  \endentry
 
-\bibitem[Lautrup(2011)]{Lautrup}
-B.~Lautrup.
-\newblock \emph{Physics of Continuous Matter: Exotic and Everyday Phenomena in
-  the Macroscopic World}.
-\newblock CRC Press, 2011.
-\newblock ISBN 9781439894200.
-\newblock URL \url{https://books.google.dk/books?id=ohbSBQAAQBAJ}.
+  \entry{BR}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=MB}{%
+         family={Martin},
+         familyi={M\bibinitperiod},
+         given={B.R.},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Wiley}%
+    }
+    \strng{namehash}{MB1}
+    \strng{fullhash}{MB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{isbn}{9780470025321}
+    \field{title}{Nuclear and Particle Physics: An Introduction}
+    \verb{url}
+    \verb https://books.google.it/books?id=WXHG1wSgQDMC
+    \endverb
+    \field{year}{2006}
+  \endentry
 
-\bibitem[MacKay(2002)]{MacKay2002}
-David J.~C. MacKay.
-\newblock \emph{Information Theory, Inference and Learning Algorithms}.
-\newblock Cambridge University Press, 2002.
+  \entry{Schwichtenberg2015}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=SJ}{%
+         family={Schwichtenberg},
+         familyi={S\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer International Publishing}%
+    }
+    \strng{namehash}{SJ1}
+    \strng{fullhash}{SJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{edition}{1}
+    \field{title}{{Physics from Symmetry}}
+    \field{year}{2015}
+  \endentry
 
-\bibitem[Martin(2006)]{BR}
-B.R. Martin.
-\newblock \emph{Nuclear and Particle Physics: An Introduction}.
-\newblock Wiley, 2006.
-\newblock ISBN 9780470025321.
-\newblock URL \url{https://books.google.it/books?id=WXHG1wSgQDMC}.
+  \entry{Srednicki2027}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=SM}{%
+         family={Srednicki},
+         familyi={S\bibinitperiod},
+         given={Mark},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Cambridge Univ. Press}%
+    }
+    \strng{namehash}{SM1}
+    \strng{fullhash}{SM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{Quantum Field Theory}}
+    \verb{url}
+    \verb https://cds.cern.ch/record/1019751
+    \endverb
+    \list{location}{1}{%
+      {Cambridge}%
+    }
+    \field{year}{2007}
+  \endentry
 
-\bibitem[Metropolis et~al.(1953)Metropolis, Rosenbluth, Rosenbluth, Teller, and
-  Teller]{Metropolis1953}
-Nicholas Metropolis, Arianna~W. Rosenbluth, Marshall~N. Rosenbluth, Augusta~H.
-  Teller, and Edward Teller.
-\newblock Equation of state calculations by fast computing machines.
-\newblock \emph{The Journal of Chemical Physics}, 21\penalty0 (6):\penalty0
-  1087--1092, 1953.
-\newblock \doi{10.1063/1.1699114}.
-\newblock URL \url{http://link.aip.org/link/?JCP/21/1087/1}.
+  \entry{Weinberg1972}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=WS}{%
+         family={Weinberg},
+         familyi={W\bibinitperiod},
+         given={Steven},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Wiley}%
+    }
+    \strng{namehash}{WS1}
+    \strng{fullhash}{WS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{Gravitation and Cosmology: Principles and Applications of
+  the General Theory of Relativity}}
+    \verb{url}
+    \verb https://cds.cern.ch/record/100595
+    \endverb
+    \list{location}{1}{%
+      {New York, NY}%
+    }
+    \field{year}{1972}
+  \endentry
 
-\bibitem[Neal(1996)]{Neal:1996}
-Radford~M. Neal.
-\newblock Springer-Verlag, Berlin, Heidelberg, 1996.
-\newblock ISBN 0387947248.
-
-\bibitem[Neal(2012)]{Neal2012}
-Radford~M. Neal.
-\newblock Mcmc using hamiltonian dynamics.
-\newblock 2012.
-\newblock URL \url{http://arxiv.org/abs/1206.1901}.
-\newblock cite arxiv:1206.1901.
-
-\bibitem[Peskin and Schroeder(1995)]{Peskin1995}
-Michael~E Peskin and Daniel~V Schroeder.
-\newblock \emph{{An introduction to quantum field theory}}.
-\newblock Westview, Boulder, CO, 1995.
-\newblock URL \url{https://cds.cern.ch/record/257493}.
-\newblock Includes exercises.
-
-\bibitem[Petersen()]{petersen2020}
-J.~Petersen.
-\newblock \emph{The Missing MAss Problem on Galactic Scales}.
-\newblock PhD thesis.
-
-\bibitem[Sakurai(1994)]{Sakurai}
-Jun~John Sakurai.
-\newblock \emph{{Modern quantum mechanics; rev. ed.}}
-\newblock Addison-Wesley, Reading, MA, 1994.
-\newblock URL \url{https://cds.cern.ch/record/1167961}.
-
-\bibitem[Sannino()]{Sannino}
-F.~Sannino.
-\newblock Lagrangian and hamiltonian mechanics.
-
-\bibitem[Schwichtenberg(2015)]{Schwichtenberg2015}
-J.~Schwichtenberg.
-\newblock \emph{{Physics from Symmetry}}.
-\newblock Springer International Publishing, 1 edition, 2015.
-
-\bibitem[{Skilling}(2004)]{skilling2004}
-John {Skilling}.
-\newblock {Nested Sampling}.
-\newblock In Rainer {Fischer}, Roland {Preuss}, and Udo~Von {Toussaint},
-  editors, \emph{Bayesian Inference and Maximum Entropy Methods in Science and
-  Engineering: 24th International Workshop on Bayesian Inference and Maximum
-  Entropy Methods in Science and Engineering}, volume 735 of \emph{American
-  Institute of Physics Conference Series}, pages 395--405, November 2004.
-\newblock \doi{10.1063/1.1835238}.
-
-\bibitem[Skilling(2006)]{skilling2006}
-John Skilling.
-\newblock Skilling, j.: Nested sampling for general bayesian computation.
-  bayesian anal. 1(4), 833-860.
-\newblock \emph{Bayesian Analysis}, 1:\penalty0 833--860, 12 2006.
-\newblock \doi{10.1214/06-BA127}.
-
-\bibitem[Srednicki(2007)]{Srednicki2027}
-Mark Srednicki.
-\newblock \emph{{Quantum Field Theory}}.
-\newblock Cambridge Univ. Press, Cambridge, 2007.
-\newblock URL \url{https://cds.cern.ch/record/1019751}.
-
-\bibitem[Weinberg(1972)]{Weinberg1972}
-Steven Weinberg.
-\newblock \emph{{Gravitation and Cosmology: Principles and Applications of the
-  General Theory of Relativity}}.
-\newblock Wiley, New York, NY, 1972.
-\newblock URL \url{https://cds.cern.ch/record/100595}.
-
-\end{thebibliography}
+  \entry{Cheng}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=CTP}{%
+         family={Cheng},
+         familyi={C\bibinitperiod},
+         given={Ta-Pei},
+         giveni={T\bibinithyphendelim P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Oxford University Press}%
+    }
+    \strng{namehash}{CTP1}
+    \strng{fullhash}{CTP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{Relativity, Gravitation and Cosmology: A Basic
+  Introduction}}
+    \field{year}{2010}
+  \endentry
+\enddatalist
+\endinput

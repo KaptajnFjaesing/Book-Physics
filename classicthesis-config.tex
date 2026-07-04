@@ -1,0 +1,308 @@
+%----------------------------------------------------------------------------------------
+%	CHARACTER ENCODING
+%----------------------------------------------------------------------------------------
+
+\usepackage[utf8]{inputenc} % (if you use pdfLaTeX)
+
+%----------------------------------------------------------------------------------------
+%	DOCUMENT VARIABLES
+%	Fill in the lines below to enter your information into the thesis template
+%	Each of the commands can be cited anywhere in the thesis
+%----------------------------------------------------------------------------------------
+
+% Remove drafting to get rid of the '[ Date - classicthesis version 4.0 ]' text at the bottom of every page
+\PassOptionsToPackage{listings, pdfspacing, subfig,beramono,parts}{classicthesis}
+% Available options: drafting parts nochapters linedheaders eulerchapternumbers beramono eulermath pdfspacing minionprospacing tocaligned dottedtoc manychapters listings floatperchapter subfig
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES
+%----------------------------------------------------------------------------------------
+
+\usepackage{babel}
+
+%------------------------------------------------			
+\usepackage{makeidx}
+\makeindex
+%------------------------------------------------	
+\usepackage{csquotes}
+\PassOptionsToPackage{%
+	%backend=biber, % Instead of bibtex
+	backend=bibtex8,bibencoding=ascii,%
+	language=auto,%
+	style=numeric-comp,%
+	%style=authoryear-comp, % Author 1999, 2010
+	%bibstyle=authoryear,dashed=false, % dashed: substitute rep. author with ---
+	sorting=none, % name, year, title
+	maxbibnames=10, % default: 3, et al.
+	%backref=true,%
+	natbib=true % natbib compatibility mode (\citep and \citet still work)
+}{biblatex}
+\usepackage{biblatex}
+
+%------------------------------------------------
+
+\PassOptionsToPackage{fleqn}{amsmath} % Math environments and more by the AMS 
+\usepackage{amsmath}
+
+% Fallback for Dirac slash notation used in the physics chapters
+\usepackage{slashed}  % keep this
+
+\makeatletter
+\renewcommand{\slashed}[1]{%
+	\mathchoice
+	{\ooalign{$\hfil\displaystyle\m@th/\hfil$\crcr$\displaystyle\m@th#1$}}
+	{\ooalign{$\hfil\textstyle\m@th/\hfil$\crcr$\textstyle\m@th#1$}}
+	{\ooalign{$\hfil\scriptstyle\m@th/\hfil$\crcr$\scriptstyle\m@th#1$}}
+	{\ooalign{$\hfil\scriptscriptstyle\m@th/\hfil$\crcr$\scriptscriptstyle\m@th#1$}}
+}
+\makeatother
+\newcommand{\dbar}{\mathchar'26\mkern-12mu d}
+
+% Packages used by the QFT/Feynman content
+\usepackage{tikz}
+\usetikzlibrary{calc,positioning}
+
+\usepackage{tikz-feynman}
+\tikzfeynmanset{compat=1.0.0}
+\usepackage{simplewick}
+
+\DeclareMathOperator*{\argmax}{argmax}   % Jan Hlavacek
+\DeclareMathOperator*{\argmin}{argmin}   % Jan Hlavacek
+
+%------------------------------------------------
+
+\usepackage{amssymb} % The extended math symbols, e.g. lesssim and gtrsim
+\usepackage{braket} % the braket
+%------------------------------------------------
+
+\PassOptionsToPackage{T1}{fontenc} % T2A for cyrillics
+\usepackage{fontenc}
+
+%------------------------------------------------
+
+\usepackage{textcomp} % Fix warning with missing font shapes
+
+%------------------------------------------------
+\usepackage{epsdice} % dice symbols
+\usepackage{marvosym} % boy, girl symbols
+\usepackage{twemojis} % fruit symbols
+%------------------------------------------------
+
+\usepackage{scrhack} % Fix warnings when using KOMA with listings package  
+
+%------------------------------------------------
+
+\usepackage{xspace} % To get the spacing after macros right
+
+%------------------------------------------------
+
+\usepackage{mparhack} % To get marginpar right
+
+%------------------------------------------------
+\usepackage{cancel} % for cancels to
+
+%------------------------------------------------
+\usepackage{amsthm} % For proofs among other things
+\usepackage{float}
+
+%------------------------------------------------
+\PassOptionsToPackage{smaller}{acronym} % Include printonlyused in the first bracket to only show acronyms used in the text
+\usepackage{acronym} % Nice macros for handling all acronyms in the thesis
+
+\renewcommand*{\aclabelfont}[1]{\acsfont{#1}}
+
+
+%------------------------------------------------
+
+\PassOptionsToPackage{pdftex}{graphicx}
+\usepackage{graphicx} 
+
+%----------------------------------------------------------------------------------------
+%	ENVIRONMENTS
+%----------------------------------------------------------------------------------------
+
+\newtheorem{axiom}{Axiom}[chapter]
+\newtheorem{definition}{Definition}[chapter]
+\newtheorem{theorem}{Theorem}[chapter]
+\newtheorem{corollary}{Corollary}[chapter]
+\newtheorem{remark}{Remark}[chapter]
+\newtheorem{exinn}{Example}[chapter]
+\newenvironment{example}
+{\clubpenalty=10000
+	\begin{exinn}%
+		\mbox{}%
+		{\color{black}\leaders\hrule height .8ex depth \dimexpr-.8ex+0.8pt\relax\hfill}%
+		\mbox{}\linebreak\ignorespaces}
+	{\par\kern2ex\hrule\end{exinn}}
+
+%----------------------------------------------------------------------------------------
+%	FLOATS: TABLES, FIGURES AND CAPTIONS SETUP
+%----------------------------------------------------------------------------------------
+
+\usepackage{tabularx} % Better tables
+\setlength{\extrarowheight}{3pt} % Increase table row height
+\newcommand{\tableheadline}[1]{\multicolumn{1}{c}{\spacedlowsmallcaps{#1}}}
+\newcommand{\myfloatalign}{\centering} % To be used with each float for alignment
+\usepackage{caption}
+\captionsetup{font=small}
+\usepackage{subfig}  
+
+%----------------------------------------------------------------------------------------
+%	CODE LISTINGS SETUP
+%----------------------------------------------------------------------------------------
+
+
+\usepackage{xcolor} % Colors for Python environment
+
+% Define colors for Python code syntax highlighting
+\definecolor{RoyalBlue}{rgb}{0.25, 0.41, 0.88}
+\definecolor{webgreen}{rgb}{0.0, 0.5, 0.0}
+\definecolor{webbrown}{rgb}{0.65, 0.16, 0.16}
+\definecolor{keywordcolor}{rgb}{0.5, 0, 0.5}
+\definecolor{stringcolor}{rgb}{0.5, 0.5, 0}
+\definecolor{commentcolor}{rgb}{0.25, 0.5, 0.35}
+\definecolor{backgroundcolor}{rgb}{0.95, 0.95, 0.92}
+\definecolor{Maroon}{rgb}{0.5, 0.0, 0.0}
+\definecolor{Black}{rgb}{0.0, 0.0, 0.0}
+
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+
+%----------------------------------------------------------------------------------------
+%	HYPERREFERENCES
+%----------------------------------------------------------------------------------------
+
+\PassOptionsToPackage{pdftex,hyperfootnotes=false,pdfpagelabels}{hyperref}
+\usepackage{hyperref}  % backref linktocpage pagebackref
+\pdfcompresslevel=9
+\pdfadjustspacing=1
+
+\hypersetup{
+	colorlinks=false,
+	linktocpage=false,
+	pdfborder={0 0 0},
+}
+
+
+%----------------------------------------------------------------------------------------
+%	AUTOREFERENCES SETUP
+%	Redefines how references in text are prefaced for different 
+%	languages (e.g. "Section 1.2" or "section 1.2")
+%----------------------------------------------------------------------------------------
+
+\makeatletter
+\@ifpackageloaded{babel}
+{
+	\addto\extrasamerican{
+		\renewcommand*{\figureautorefname}{Figure}
+		\renewcommand*{\tableautorefname}{Table}
+		\renewcommand*{\partautorefname}{Part}
+		\renewcommand*{\chapterautorefname}{Chapter}
+		\renewcommand*{\sectionautorefname}{Section}
+		\renewcommand*{\subsectionautorefname}{Section}
+		\renewcommand*{\subsubsectionautorefname}{Section}
+	}
+	\addto\extrasngerman{
+		\renewcommand*{\paragraphautorefname}{Absatz}
+		\renewcommand*{\subparagraphautorefname}{Unterabsatz}
+		\renewcommand*{\footnoteautorefname}{Fu\"snote}
+		\renewcommand*{\FancyVerbLineautorefname}{Zeile}
+		\renewcommand*{\theoremautorefname}{Theorem}
+		\renewcommand*{\appendixautorefname}{Anhang}
+		\renewcommand*{\equationautorefname}{Gleichung}
+		\renewcommand*{\itemautorefname}{Punkt}
+	}
+	\providecommand{\subfigureautorefname}{\figureautorefname} % Fix to getting autorefs for subfigures right
+}{\relax}
+\makeatother
+
+%----------------------------------------------------------------------------------------
+
+\usepackage{classicthesis} 
+
+%----------------------------------------------------------------------------------------
+%	CHANGING TEXT AREA 
+%----------------------------------------------------------------------------------------
+
+%\linespread{1.05} % a bit more for Palatino
+%\areaset[current]{280pt}{600pt} % 686 (factor 2.2) + 33 head + 42 head \the\footskip
+%\setlength{\marginparwidth}{7em}%
+%\setlength{\marginparsep}{2em}%
+\usepackage[
+paperwidth=155mm,
+paperheight=220mm,
+inner=20mm,
+outer=17mm,
+top=28mm,
+bottom=21mm,
+headheight=12pt,
+headsep=6mm,
+footskip=12mm
+]{geometry}
+
+
+%----------------------------------------------------------------------------------------
+%	USING DIFFERENT FONTS
+%----------------------------------------------------------------------------------------
+%\usepackage[oldstylenums]{kpfonts}
+%\usepackage[osf]{libertine}
+\usepackage{cfr-lm} % 
+%\usepackage[sfdefault]{FiraSans}
+
+
+%----------------------------------------------------------------------------------------
+%	Including pdf's
+%----------------------------------------------------------------------------------------
+\usepackage{pdfpages}
+
+%----------------------------------------------------------------------------------------
+%	USEFUL COMMANDS
+%----------------------------------------------------------------------------------------
+
+% COMMANDS FOR REFERENCES
+\newcommand{\chref}[1]{\hyperref[#1]{Chapter~\ref{#1}}}
+\newcommand{\secref}[1]{\hyperref[#1]{Section~\ref{#1}}}
+\newcommand{\subsecref}[1]{\hyperref[#1]{Subsection~\ref{#1}}}
+\newcommand{\tabref}[1]{\hyperref[#1]{Table~\ref{#1}}}
+\newcommand{\figref}[1]{\hyperref[#1]{Figure~\ref{#1}}}
+\newcommand{\appref}[1]{\hyperref[#1]{Appendix~\ref{#1}}}
+\newcommand{\lstref}[1]{\hyperref[#1]{Listing~\ref{#1}}}
+\newcommand{\EQref}[1]{\hyperref[#1]{Equation~\ref{#1}}}
+\newcommand{\dfref}[1]{\hyperref[#1]{Definition~\ref{#1}}}
+\newcommand{\corref}[1]{\hyperref[#1]{Corollary~\ref{#1}}}
+\newcommand{\axref}[1]{\hyperref[#1]{Axiom~\ref{#1}}}
+\newcommand{\thref}[1]{\hyperref[#1]{Theorem~\ref{#1}}}
+\newcommand{\exref}[1]{\hyperref[#1]{Example~\ref{#1}}}
+\renewcommand{\algref}[1]{\hyperref[#1]{Algorithm~\ref{#1}}}
+\newcommand{\rmref}[1]{\hyperref[#1]{Remark~\ref{#1}}}
+
+\newcommand{\chrefpage}[1]{\hyperref[#1]{Chapter~\vref{#1}}}
+\newcommand{\secrefpage}[1]{\hyperref[#1]{Section~\vref{#1}}}
+\newcommand{\subsecrefpage}[1]{\hyperref[#1]{Subsection~\vref{#1}}}
+\newcommand{\tabrefpage}[1]{\hyperref[#1]{Table~\vref{#1}}}
+\newcommand{\figrefpage}[1]{\hyperref[#1]{Figure~\vref{#1}}}
+\newcommand{\apprefpage}[1]{\hyperref[#1]{Appendix~\vref{#1}}}
+\newcommand{\lstrefpage}[1]{\hyperref[#1]{Listing~\vref{#1}}}
+\newcommand{\eqrefpage}[1]{\hyperref[#1]{Equation~\vref{#1}}}
+\newcommand{\algrefpage}[1]{\hyperref[#1]{Algorithm~\vref{#1}}}
+
+\newcommand{\ie}{i.\,e.}
+\newcommand{\Ie}{I.\,e.}
+\newcommand{\eg}{e.\,g.}
+\newcommand{\Eg}{E.\,g.} 
+
+\newcounter{dummy} % Necessary for correct hyperlinks (to index, bib, etc.)
+\providecommand{\mLyX}{L\kern-.1667em\lower.25em\hbox{Y}\kern-.125emX\@}
+\newlength{\abcd} % for ab..z string length calculation
+
+
+% Remove page number from chapter-opening pages (KOMA-Script way)
+\usepackage{scrlayer-scrpage}
+\clearpairofpagestyles
+\ihead{\headmark}
+\ohead{\pagemark}
+\renewcommand*{\chapterpagestyle}{empty}
+
+\numberwithin{equation}{chapter}
+
+\DeclareMathOperator{\sinc}{sinc}

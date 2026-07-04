@@ -1,152 +1,151 @@
-This is BibTeX, Version 0.99d
+This is BibTeX, Version 0.99e
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
-Reallocating 'name_of_file' (item size: 1) to 13 items.
-A level-1 auxiliary file: overture.aux
-Reallocating 'name_of_file' (item size: 1) to 24 items.
-A level-1 auxiliary file: classical_mechanics.aux
-Reallocating 'name_of_file' (item size: 1) to 22 items.
-A level-1 auxiliary file: quantum_mechanics.aux
-Reallocating 'name_of_file' (item size: 1) to 27 items.
-A level-1 auxiliary file: relativistic_mechanics.aux
-Reallocating 'name_of_file' (item size: 1) to 8 items.
-A level-1 auxiliary file: QFT.aux
-Reallocating 'name_of_file' (item size: 1) to 17 items.
-A level-1 auxiliary file: app_code_CDF.aux
-Reallocating 'name_of_file' (item size: 1) to 22 items.
-A level-1 auxiliary file: app_HMC_algorithm.aux
-Reallocating 'name_of_file' (item size: 1) to 24 items.
-A level-1 auxiliary file: app_nested_sampling.aux
 Reallocating 'name_of_file' (item size: 1) to 9 items.
-The style file: plainnat.bst
+The style file: biblatex.bst
+Reallocating 'name_of_file' (item size: 1) to 9 items.
 Reallocating 'name_of_file' (item size: 1) to 5 items.
-Database file #1: refs.bib
-I was expecting a `,' or a `}'---line 67 of file refs.bib
+Reallocating 'name_of_file' (item size: 1) to 30 items.
+A level-1 auxiliary file: frontbackmatter/Titlepage.aux
+Reallocating 'name_of_file' (item size: 1) to 30 items.
+A level-1 auxiliary file: frontbackmatter/Titleback.aux
+Reallocating 'name_of_file' (item size: 1) to 33 items.
+A level-1 auxiliary file: frontbackmatter/Bibliography.aux
+Reallocating 'name_of_file' (item size: 1) to 26 items.
+A level-1 auxiliary file: frontbackmatter/Index.aux
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Database file #1: main-blx.bib
+Database file #2: refs.bib
+You're missing a field name---line 915 of file refs.bib
+ :  year      = {1663}, 
+ :                      % Original publication year
+I'm skipping whatever remains of this entry
+You're missing a field name---line 945 of file refs.bib
+ :  year      = {1557}, 
+ :                      % Adjust the year based on the specific edition you are referring to
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1071 of file refs.bib
  :  
  :  school = PhD Thesis, University of Southern Denmark,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 1175 of file refs.bib
- : @article{hastings70
- :                    ,
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 1245 of file refs.bib
+I was expecting a `,' or a `}'---line 2217 of file refs.bib
  :  
  :  pages = {318-362},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 1707 of file refs.bib
- : @book{MacKay2002
- :                 ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1733 of file refs.bib
- : @article{Metropolis1953
- :                        ,
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 2171 of file refs.bib
+I was expecting a `,' or a `}'---line 3143 of file refs.bib
  :  journal = The 
  :                Astronomical Journal,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 2215 of file refs.bib
+I was expecting a `,' or a `}'---line 3187 of file refs.bib
  :  journal = Monthly 
  :                    Notices of the Royal Astronomical Society: Letters,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 2297 of file refs.bib
+I was expecting a `,' or a `}'---line 3269 of file refs.bib
  :  eprint = 1103
  :               .3944,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 2329 of file refs.bib
+I was expecting a `,' or a `}'---line 3337 of file refs.bib
  :  journal = Nature 
  :                   Astronomy,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 2587 of file refs.bib
+I was expecting a `,' or a `}'---line 3595 of file refs.bib
  :  DOI     = 10
  :              .4249/scholarpedia.31410,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 2609 of file refs.bib
+I was expecting a `,' or a `}'---line 3617 of file refs.bib
  :  doi = 10
  :          .1086/182804,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 2747 of file refs.bib
+I was expecting a `,' or a `}'---line 3755 of file refs.bib
  :  journal = The 
  :                Astronomical Journal,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 2789 of file refs.bib
+I was expecting a `,' or a `}'---line 3797 of file refs.bib
  :  pages = 668
  :             -683,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 2829 of file refs.bib
+I was expecting a `,' or a `}'---line 3837 of file refs.bib
  :  pages = 1
  :           -28,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 2863 of file refs.bib
+I was expecting a `,' or a `}'---line 3871 of file refs.bib
  :  keywords = NEUTRAL 
  :                     HYDROGEN, GAS DISTRIBUTION, SPIRAL GALAXIES,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 2883 of file refs.bib
+I was expecting a `,' or a `}'---line 3891 of file refs.bib
  :  pages = 305
  :             -313,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 3385 of file refs.bib
+I was expecting a `,' or a `}'---line 4393 of file refs.bib
  :  pages = 325
  :             -331,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 3979 of file refs.bib
+You're missing a field name---line 4987 of file refs.bib
  :  author         = "Dai, De-Chang and Lu, Chunyu",
  :                                                  ,
 I'm skipping whatever remains of this entry
-I was expecting an "="---line 4693 of file refs.bib
+I was expecting an "="---line 5701 of file refs.bib
  : author = Madau, Piero 
  :                       and Shen, Sijing and Governato, F,
 I'm skipping whatever remains of this entry
-Warning--empty journal in Betancourt2013
-Warning--empty title in Neal:1996
-Warning--empty journal in Neal2012
-Warning--empty school in petersen2020
-Warning--empty year in petersen2020
-Warning--empty year in petersen2020
-Warning--empty journal in Sannino
-Warning--empty year in Sannino
-Warning--empty year in Sannino
-You've used 26 entries,
-            2773 wiz_defined-function locations,
-            787 strings with 8904 characters,
-and the built_in function-call counts, 9651 in all, are:
-= -- 833
-> -- 433
-< -- 24
-+ -- 155
-- -- 129
-* -- 678
-:= -- 1566
-add.period$ -- 106
-call.type$ -- 26
-change.case$ -- 104
-chr.to.int$ -- 26
-cite$ -- 61
-duplicate$ -- 530
-empty$ -- 875
-format.name$ -- 165
-if$ -- 2012
-int.to.chr$ -- 1
-int.to.str$ -- 1
-missing$ -- 42
-newline$ -- 165
-num.names$ -- 106
-pop$ -- 276
+Biblatex version: 3.21
+Reallocating 'wiz_functions' (item size: 4) to 9000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+You've used 17 entries,
+            6402 wiz_defined-function locations,
+            1324 strings with 11406 characters,
+and the built_in function-call counts, 100333 in all, are:
+= -- 7736
+> -- 1783
+< -- 616
++ -- 2536
+- -- 526
+* -- 6122
+:= -- 10021
+add.period$ -- 0
+call.type$ -- 17
+change.case$ -- 0
+chr.to.int$ -- 51
+cite$ -- 32
+duplicate$ -- 10490
+empty$ -- 9046
+format.name$ -- 879
+if$ -- 21230
+int.to.chr$ -- 0
+int.to.str$ -- 55
+missing$ -- 0
+newline$ -- 455
+num.names$ -- 990
+pop$ -- 5527
 preamble$ -- 1
-purify$ -- 94
+purify$ -- 519
 quote$ -- 0
-skip$ -- 349
+skip$ -- 3984
 stack$ -- 0
-substring$ -- 171
-swap$ -- 39
-text.length$ -- 2
+substring$ -- 13009
+swap$ -- 2165
+text.length$ -- 343
 text.prefix$ -- 0
-top$ -- 0
-type$ -- 201
-warning$ -- 9
-while$ -- 86
+top$ -- 1
+type$ -- 566
+warning$ -- 0
+while$ -- 1194
 width$ -- 0
-write$ -- 385
-(There were 19 error messages)
+write$ -- 439
+(There were 18 error messages)
